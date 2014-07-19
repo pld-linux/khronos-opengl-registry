@@ -12,6 +12,7 @@ Source0:	ogl-api.tar.xz
 URL:		http://www.opengl.org/registry/
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
